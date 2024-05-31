@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/classes.css" />
+    <title>Web Design Mastery | Fitclub</title>
+     <style>
+      .explore__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 20vh; /* Set header height to fill the viewport */
+        }
+
+        .section__header {
+            text-align: center;
+        }
+
+        /* Your existing CSS for the card grid */
+        .explore__grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .explore__card {
+            flex-grow: 1;
+            flex-basis: calc(45% - 10px); /* Adjust the value as needed */
+            margin: 10px; /* Adjust the margin as needed */
+        }
+
+        @media screen and (max-width: 768px) {
+            .explore__card {
+                flex-basis: calc(1000% - 10px); /* Adjust the value as needed */
+            }
+        }
+      </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="nutrition.html">Nutrition</a></li>
+        <li class="link"><a href="classes.html">Classes</a></li>
+        <li class="link"><a href="about.html">About</a></li>
+        <li class="link"><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="btn">Join Now</button>
+    </nav>
+
+      <div class="explore__header">
+        <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
+      </div>
+
+    <div class="explore__grid">
+    <div class="explore__card">
+        <img src="assets/test.jpg" alt="Strength Image">
+        <h4>Strength</h4>
+        <p>
+            Embrace the essence of strength as we delve into its various
+            dimensions physical, mental, and emotional.
+        </p>
+        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+    </div>
+    <div class="explore__card">
+        <img src="assets/test.jpg" alt="Physical Fitness Image">
+        <h4>Physical Fitness</h4>
+        <p>
+            It encompasses a range of activities that improve health, strength,
+            flexibility, and overall well-being.
+        </p>
+        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+    </div>
+    <div class="explore__card">
+        <img src="assets/test.jpg" alt="Fat Loss Image">
+        <h4>Fat Lose</h4>
+        <p>
+            Through a combination of workout routines and expert guidance, we'll
+            empower you to reach your goals.
+        </p>
+        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+    </div>
+    <div class="explore__card">
+        <img src="assets/test.jpg" alt="Weight Gain Image">
+        <h4>Weight Gain</h4>
+        <p>
+            Designed for individuals, our program offers an effective approach
+            to gaining weight in a sustainable manner.
+        </p>
+        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+    </div>
+</div>
+
+    <footer class="section__container footer__container">
+      <span class="bg__blur"></span>
+      <span class="bg__blur footer__blur"></span>
+      <div class="footer__col">
+        <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
+        <p>
+          Take the first step towards a healthier, stronger you with our
+          unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+        </p>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a href="#">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">BMI Calculator</a>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </div>
+  </body>
+</html>
