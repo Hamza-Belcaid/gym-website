@@ -4,35 +4,14 @@
       <div class="footer__col">
         <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
         <p>
-          Take the first step towards a healthier, stronger you with our
-          unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+          Begin your journey to a healthier, stronger version of yourself with our incredible pricing options. Let's sweat, achieve goals, and conquer challenges together! Our unbeatable pricing plans ensure that your path to fitness is both affordable and effective. Join us and start transforming your health today! Take the first step towards a better you
         </p>
         <div class="footer__socials">
           <a href="#"><i class="ri-facebook-fill"></i></a>
           <a href="#"><i class="ri-instagram-line"></i></a>
         </div>
       </div>
-      <div class="footer__col">
-        <h4>Company</h4>
-        <a href="#">Business</a>
-        <a href="#">Franchise</a>
-        <a href="#">Partnership</a>
-        <a href="#">Network</a>
-      </div>
-      <div class="footer__col">
-        <h4>About Us</h4>
-        <a href="#">Blogs</a>
-        <a href="#">Security</a>
-        <a href="#">Careers</a>
-      </div>
-      <div class="footer__col">
-        <h4>Contact</h4>
-        <a href="#">Contact Us</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">BMI Calculator</a>
-      </div>
     </footer>
     <div class="footer__bar">
-      Copyright © 2024 . All rights reserved.
+      Copyright © 2024 . Hamza Belcaid & Mohammed Aouane All rights reserved.
     </div>

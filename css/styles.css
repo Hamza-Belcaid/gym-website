@@ -350,14 +350,14 @@ nav {
 .footer__container {
   position: relative;
   display: grid;
-  grid-template-columns: 400px repeat(3, 1fr);
+  grid-template-columns: 1200px repeat(3, 1fr);
   gap: 2rem;}
 .footer__blur {
   bottom: 0;
   right: 0;}
 .footer__logo {
   max-width: 150px;
-  margin-bottom: 2rem;}
+  margin-bottom: 1rem;}
 .footer__col p {
   margin-bottom: 2rem;
   color: var(--text-light);}
@@ -390,7 +390,8 @@ nav {
 .footer__bar {
   max-width: var(--max-width);
   margin: auto;
-  padding: 1rem;
+  padding: 0rem;
+  text-align: center;
   font-size: 0.8rem;
   color: var(--white);}
 @media (width < 900px) {
