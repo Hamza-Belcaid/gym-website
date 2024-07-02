@@ -12,7 +12,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            height: 15vh;
+            height: 10vh;
         }
 
         .section__header {
@@ -26,8 +26,8 @@
 
         .explore__card {
             flex-grow: 1;
-            flex-basis: calc(30%); 
-            margin: 20px; 
+            flex-basis: calc(25%);
+            margin: 15px;
         }
             }
         }
@@ -80,7 +80,7 @@ include 'sidebar.php';
         <h4>Areobic</h4>
         <p>
             Ignite your metabolism and elevate your heart rate in a dynamic dance of cardio moves,
-            pulsating beats, and energetic routines that fuel your stamina and vitality.
+            pulsating beats, and energetic routines.
         </p>
     </div>
     <div class="explore__card">
