@@ -318,8 +318,8 @@ nav {
   font-weight: 600;
   color: var(--white);}
 .review__content p {
-  max-width: 800px;
-  margin-bottom: 6rem;
+  max-width: 1000px;
+  margin-bottom: 3rem;
   color: var(--text-light);}
 .review__rating span {
   font-size: 1.5rem;
@@ -335,7 +335,7 @@ nav {
   align-items: flex-start;
   gap: 1rem;}
 .review__member img {
-  max-width: 130px;
+  max-width: 100px;
   border-radius: 100%;}
 .review__member__details h4 {
   margin-bottom: 0;}
