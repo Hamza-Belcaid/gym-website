@@ -8,9 +8,8 @@
         <li class="link"><a href="classes.php">Classes</a></li>
         <li class="link"><a href="about.php">About</a></li>
         <li class="link"><a href="contact.php">Contact</a></li>
-        <li class="link"><a href="fr/index.php">Francais</a></li>
       </ul>
-      <button class="btn price__btn" onclick="window.location.href = 'join-us.php';" >JOIN NOW</button>
+      <button class="btn price__btn" onclick="window.location.href = 'join-us.php';" >Rejoignez maintenant</button>
 
 
     </nav>
